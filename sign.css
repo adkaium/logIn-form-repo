@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.head{
+    text-align: center;
+    margin-top: 10px;
+}
+.forms{
+   margin-top: 20px;
+   position: relative;
+}
+.firstlsat{
+    display:flex ;
+    justify-content: center;
+}
+.firstlsat input[type=text]{
+    width: 200px;
+    padding:15px;
+}
+p{
+    padding:5px;
+
+}
+.name{
+    padding:10px;
+}
+input[type=text]{
+    padding:12px 20px;
+    width: 410px;
+    font-size: 1.3rem;
+
+}
+input[type=tel]{
+    padding:10px;
+    padding-left: 18px;
+    margin-right:px ;
+}
+input[type=email]{
+    padding:12px 20px;
+    width: 410px;
+    font-size: 1.3rem;
+}
+input[type=password]{
+    padding:12px 20px;
+    width: 410px;
+    font-size: 1.3rem;
+}
+select{
+    padding:10px;
+    padding-right: 19px;
+    width: 200px;
+    margin-right:10px;
+}
+.btn{
+    padding:15px;
+    background-color: rgb(5, 184, 5);
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size: 1.3rem;
+}
+.pass{
+    font-size: 1.5rem;
+    font-weight: 700;
+}

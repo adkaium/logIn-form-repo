@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+}
+h3{
+    font-size: 2rem;
+    color:#cf5355
+}
+.forms{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    text-align: center;
+    width: 350px;
+    height: 470px;
+    border-radius: 10px;
+    background-color:#28272F;
+    color:rgb(255, 255, 255);
+    opacity: .7;
+    
+}
+.forms p{
+    text-align: left;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+input[type=text] {
+    width:100%;
+    padding:10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background-color: white;
+    overflow: hidden;
+}
+input[type=password]{
+    width:100%;
+    padding:10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.button{
+    margin-top: 40px;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.link{
+    margin-top: 15px;
+}
+a{
+    width: 100px;
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    background-color: white;
+    padding:5px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.sign{
+    padding-left: 110px;
+    padding-right: 110px
+}
